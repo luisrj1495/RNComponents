@@ -1,14 +1,13 @@
 import React from "react";
 
-import { NavigationContainer } from "@react-navigation/native";
-
 import NavigationStack from "./src/navigation/NavigationStack";
+import ThemeProvider from "./src/contexts/theme/provider";
 
 const App = () => {
   return (
-    <NavigationContainer>
+    <ThemeProvider>
       <NavigationStack />
-    </NavigationContainer>
+    </ThemeProvider>
   );
 };
 

@@ -3,9 +3,6 @@ import {
   StyleSheet,
   SafeAreaView,
   FlatList,
-  Text,
-  RefreshControl,
-  Image,
   View,
   ActivityIndicator,
 } from "react-native";
