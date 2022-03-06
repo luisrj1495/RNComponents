@@ -23,12 +23,12 @@ export const INITIAL_STATE: ThemeStateType = {
   colors: DARK_THEME_COLORS,
 };
 
-export const darkTheme = {
+export const darkTheme: ThemeStateType = {
   theme: "dark",
   colors: DARK_THEME_COLORS,
 };
 
-export const lightTheme = {
+export const lightTheme: ThemeStateType = {
   theme: "light",
   colors: LIGHT_THEME_COLORS,
 };

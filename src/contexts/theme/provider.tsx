@@ -17,7 +17,7 @@ const Provider: React.FC = ({ children }) => {
   const setTheme: ThemeActionsType["setTheme"] = payload =>
     dispatch({ type: "SET_THEME", payload });
 
-    // Other way to listed when the user change dark or light in the device
+  // Other way to listed when the user change dark or light in the device
   useEffect(() => {
     AppState.addEventListener("change", status => {
       if (status == "active") {
